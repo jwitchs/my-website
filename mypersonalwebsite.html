@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Just Some Personal Website">
+<meta name="author" content="Bing Chilling">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css-resume-layout.css">
+</head>
+<body>
+<div class="header">
+<h1>Deion's Website</h1>
+<p style="font-weight: bold; text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #00e6e6, 0 0 30px #00e6e6, 0 0 40px #00e6e6, 0 0 55px #00e6e6, 0 0 75px #00e6e6;
+  color: #fff;">A Personal Website by Deion Alfred Encarguez</p>
+</div>
+
+<div class="topnav">
+<a href="resume(layout).html">HOME</a>
+<a href="surprise.html">SURPRISE</a>
+<a href="https://www.reddit.com/r/memes/">MEMES</a>
+<a href="https://youtu.be/dQw4w9WgXcQ" style="float:right">Click Me!</a>
+</div>
+
+<div class="row">
+<div class="leftcolumn">
+<div class="card">
+<h2>KNOWLEDGE IS POWER!</h2>
+<h5>Reading books is a wonderful way to expand our minds, enrich our lives, and develop critical thinking skills. Books offer a gateway to different perspectives and cultures, and can help us understand complex issues in a more profound way. Reading also helps improve vocabulary, focus, and memory, and can provide a much-needed escape from the hustle and bustle of daily life.</h5>
+<div class="fakeimg1" style="height:500px;"></div>
+<p>Goes to school at University of Cebu Lapu-Lapu and Mandaue, is a good student in UCLM. Likes to read ANYTHING, craves for knowledge. Likes to write fiction, and is truly one of the human beings of all time.</p>
+<p style="font-weight: bold;">"Embrace Possibility, Unleash Your Inner <a href="creativity.html">Creativity</a>"</p>
+</div>
+<div class="card">
+<h2>What You See, Isn't What It Actually Is.</h2>
+<h5>The Grid Illusion, an Illusion created by Ludimar Hermann, it is an optical illusion in which the crossings of white grid lines appear darker than the grid lines outside the crossings. The illusion disappears when one fixates the crossings.</h5>
+<div class="fakeimg2" style="height:500px;"></div>
+<p>It turned blacked didn't it.</p>
+<p>ILLLLUSSSSSIOOONSSS!!</p>
+</div>
+</div>
+<div class="rightcolumn">
+<div class="card">
+<h2>About Me</h2>
+<h3 align=center>Deion Alfred S. Encarguez<h3>
+<div class="fakeimg3" style="height:200px;"></div>
+<p align=center><a href="https://www.facebook.com/deionalfred.encarguez">Facebook</a><br><br><a href="index.html" style=>Bricks</a></p>
+</div>
+<div class="card">
+<h3>AI Arts</h3>
+<a href="football.html"><div class="fakeimg4" style="height: 200px"><p></p></div></a><p style="font-weight:bold;">"The Beauty of Football"</p><br>
+<div class="fakeimg5" style="height: 200px"><p></p></div><p style="font-weight:bold;">"The Left Pirate"</p><br>
+<div class="fakeimg6" style="height: 200px"><p></p></div><p style="font-weight:bold;">"The Golden Admiral"</p>
+</div>
+<div class="card hidden">
+<h3>The Bible Verse</h3>
+<p>Have confidence in your leaders and submit to their authority, because they keep watch over you as those who must give an account. Do this so that their work will be a joy, not a burden, for that would be of no benefit to you. -Hebrew 13:17</p>
+</div>
+</div>
+</div>
+
+<div class="footer">
+<audio id="music1" src="easter.mp3" loop></audio>
+<audio id="music2" src="easter2.mp3" loop></audio>
+<h2>Created by <span class="easter-egg">Deion</span> <span id="music1-trigger">Alfred</span> S. <span id="music2-trigger">Encarguez</span></h2>
+</div>
+<script>
+const easterEggWord = document.querySelector(".easter-egg");
+const hiddenCard = document.querySelector(".card.hidden");
+
+easterEggWord.addEventListener("click", () => {
+  hiddenCard.classList.remove("hidden");
+});
+</script>
+
+<script>
+const music1Trigger = document.getElementById("music1-trigger");
+const music2Trigger = document.getElementById("music2-trigger");
+const music1 = document.getElementById("music1");
+const music2 = document.getElementById("music2");
+
+music1Trigger.addEventListener("click", function() {
+  music1.play();
+  music2.pause();
+});
+
+music2Trigger.addEventListener("click", function() {
+  music2.play();
+  music1.pause();
+});
+</script>
+</body>
+</html>

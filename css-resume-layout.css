@@ -1,0 +1,206 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Arial;
+	padding: 10px;
+	background: #2c2b2b;
+}
+
+p{
+	font-family: Tahoma;
+	color: white;
+}
+
+p a {
+	color: #f2f2f2;
+	text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+a[href*="index.html"] {
+  color: #FFFFFF; /* white text */
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 2px solid #FFA500; /* orange underline */
+  transition: border-bottom 0.3s ease-in-out;
+}
+
+a[href*="index.html"]:hover {
+  border-bottom: 2px solid #FFFFFF; /* white underline on hover */
+}
+
+a[href*="https://www.facebook.com/deionalfred.encarguez"] {
+  color: #FFFFFF; /* white text */
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 2px solid #FFA500; /* orange underline */
+  transition: border-bottom 0.3s ease-in-out;
+}
+
+a[href*="https://www.facebook.com/deionalfred.encarguez"]:hover {
+  border-bottom: 2px solid #FFFFFF; /* white underline on hover */
+}
+p a:hover{
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+}
+
+
+/* Header/Blog Title */
+.header{
+	padding: 30px;
+	color: white;
+	text-align: center;
+	background: #2c2b2b;
+}
+
+.header h1{
+	font-size: 50px;
+}
+
+h2{ 
+   color: white;
+}
+
+h5{
+	color: white;
+}
+
+/* Style the top navigation bar */
+.topnav{
+	overflow: hidden;
+	background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a{
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	 box-shadow: 0 0 0px white;
+     transition: all 0.3s ease-in-out;
+} 
+
+/* Change color on hover */
+.topnav a:hover{
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+	box-shadow: 0 0 20px white;
+}
+
+.leftcolumn{
+	float: left;
+	width: 75%;
+}
+
+.rightcolumn{
+	color: white;
+    float: left;
+    width: 25%;
+    background-color: #2c2b2b;
+    padding-left: 20px;
+}
+
+.fakeimg5 {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+  background-image: url('./pirate.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.fakeimg3 {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+  background-image: url('./fbavatar.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.fakeimg6 {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+  background-image: url('./admiral.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.fakeimg4 {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+  background-image: url('./football.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.fakeimg2 {
+  background-color: #aaa;
+  width: 80%;
+  padding: 20px;
+  background-image: url('./illusion.webp');
+  background-size: cover;
+  background-position: center;
+}
+
+.fakeimg1 {
+  background-color: #aaa;
+  width: 80%;
+  padding: 20px;
+  background-image: url('./book.webp');
+  background-size: cover;
+  background-position: center;
+}
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+.card{
+	background-color: #202020;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+.row:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.footer{
+	padding: 20px;
+	text-align: center;
+	background: #2c2b2b;
+	margin-top: 20px;
+}
+
+@media screen and (max-width:800px){
+	.leftcolumn, .rightcolumn{
+		width: 100%;
+		padding: 0;
+	}
+}
+
+@media screen and (max-width: 400px){
+	.topnav a{
+		float: none;
+		width: 100%
+	}
+}
+
+.card.hidden {
+  display: none;
+}
